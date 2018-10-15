@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><title>Lepage-Bandet Descendants</title>
+<head><title>L. Descendants</title>
 <meta charset="utf-8">
 </head>
 <style>
@@ -93,7 +93,7 @@ d3.json("family.json", function(error, root) {
       .text(function(d) { return d; });
 
   svg.selectAll(".title")
-    .data(["Alexandre & Irène"])
+    .data(["Benjamin & Irène"])
     .enter().append("text")
       .attr("class", "title")
       .attr("transform", function(d) { return "translate(-50,20)" })
